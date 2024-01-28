@@ -1,0 +1,8 @@
+<persistence>
+   <persistence-unit name="EJB3Entity">
+      <jta-data-source>java:/MySqlDS1</jta-data-source>
+      <properties>
+         <property name="hibernate.hbm2ddl.auto" value="update"/>
+      </properties>
+   </persistence-unit>
+</persistence>
